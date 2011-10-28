@@ -1,0 +1,25 @@
+/*!
+	\mainpage fcppt documentation index
+
+	\section Introduction
+
+	Boost already is a very useful general purpose library. If you use C++
+	without boost, the need for something that is already provided by it
+	will soon arise. However, boost is not perfect (and Freundlich's C++
+	toolkit isn't either). The need for something that isn't provided by
+	boost might arise, too, and there are even some things I consider not
+	done "well" in boost. Freundlich's C++ toolkit (from now on shortened
+	to fcppt) tries to fill in some gaps left by boost and even implements
+	some replacements for a few boost components.
+
+	\section Overview
+
+	So what is provided by fcppt?
+
+	\subsection algorithm
+
+	Some general utility algorithms like fcppt::algorithm::append,
+	fcppt::algorithm::copy_n, fcppt::algorithm::find_if_exn, and so on.
+	Also some additional algorithms that operate on ranges, like fcppt::algorithm::map and
+	fcppt::algorithm::contains.
+*/
